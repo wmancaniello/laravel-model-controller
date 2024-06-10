@@ -12,6 +12,13 @@
 </head>
 
 <body>
+
+  <h1>Link di navigazione:</h1>
+  <ul>
+    <li><a href="{{ route('home') }}">Home</a></li>
+    <li><a href="{{ route("movies") }}">Film</a></li>
+  </ul>
+
   <main>
     @yield('content')
   </main>
