@@ -1,11 +1,12 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import "./partials/card.scss";
+@import "./partials/header.scss";
 
-.ms_header {
-    list-style-type: none;
+body {
+    background-color: #060D17;
+    color: whitesmoke;
 
-    font-size: 2rem;
-    a {
-        color: white;
-        text-decoration: none;
-    }
 }
+
+
+
