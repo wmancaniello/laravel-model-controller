@@ -1,1 +1,11 @@
 @import "~bootstrap/scss/bootstrap.scss";
+
+.ms_header {
+    list-style-type: none;
+
+    font-size: 2rem;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}

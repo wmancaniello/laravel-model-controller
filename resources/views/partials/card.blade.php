@@ -1,5 +1,7 @@
-<div class="ms_card">
-    <img src="{{ $movie->image }}" class="card-img"alt="{{ $movie->title }}">
+<div>
+    <div class="card-img">
+        <img src="{{ $movie->image }}" class="card-img"alt="{{ $movie->title }}">
+    </div>
     <div class="card-body">
         <div class="d-flex flex-column">
             <h2>{{ $movie->title }} ({{ $movie->date }})</h2>
